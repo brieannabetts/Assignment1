@@ -25,9 +25,9 @@
 
                 $cmd = $db->prepare($sql);
                 $cmd->execute();
-                $dropdown = $cmd->fetchAll();
+                $class = $cmd->fetchAll();
 
-                foreach ($dropdown as $c) {
+                foreach ($class as $c) {
                     echo '<option value="' . $c['class'].'"</option>';
                 }
                 ?>

@@ -5,18 +5,9 @@
         <title>Task List</title>
     </head>
     <body>
+    <h1>Task List</h1>
     <?php
-    // 1. Connect to the db.  Host: 172.31.22.43, DB: dbNameHere, Username: usernameHere, PW: passwordHere
-    $user = 'Brieanna1158732';
-    $database = 'Brieanna1158732';
-    $passw = 'xz0PV1TNW9O';
-
-    try {
         $db = new PDO('mysql:host=172.31.22.43;dbname=Brieanna1158732', 'Brieanna1158732', 'z0PV1TNW9O');
-    } catch (PDOException $e) {
-        echo "Error when connecting to database: " . $e->getMessage();
-        die();
-    }
 
     $sql = "SELECT * FROM tasks";
 

@@ -17,7 +17,7 @@ if (empty($class)) {
 if ($ok) {
     $db = new PDO('mysql:host=172.31.22.43;dbname=Brieanna1158732', 'Brieanna1158732', 'z0PV1TNW9O');
 
-    $sql = "INSERT INTO dropdown (class) VALUES (:class)";
+    $sql = "INSERT INTO class (class) VALUES (:class)";
 
     $cmd = $db->prepare($sql);
     $cmd->bindParam(':class', $class, PDO::PARAM_STR, 100);

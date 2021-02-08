@@ -36,9 +36,9 @@ if ($ok) {
 
     // 4. populate the INSERT with our variables using a Command variable to prevent SQL Injection
     $cmd = $db->prepare($sql);
-    $cmd->bindParam(':task', $task, PDO::PARAM_STR, 100);
+    $cmd->bindParam(':task', $task, PDO::PARAM_STR, 40);
     $cmd->bindParam(':duedate', $duedate, PDO::PARAM_STR, 8);
-    $cmd->bindParam(':class', $class, PDO::PARAM_STR, 100);
+    $cmd->bindParam(':class', $class, PDO::PARAM_STR, 40);
 
     // 5. execute the INSERT to save the data
     $cmd->execute();
