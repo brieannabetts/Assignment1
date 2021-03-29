@@ -1,3 +1,5 @@
+<?php $pageTitle = 'Welcome!';
+include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -6,20 +8,20 @@
     </head>
     <body>
         <h1>Tasks</h1>
-        //move to save-task php page
+<!--       move to save-task php page-->
         <form method="post" action="save-task.php">
             <fieldset>
-                //label and input for task
+<!--                label and input for task-->
                 <label for="task">Task: </label>
                 <input name="task" id="task" required />
             </fieldset>
             <fieldset>
-                //label and input for duedate
+<!--                label and input for duedate-->
                 <label for="duedate">Due Date: </label>
                 <input name="duedate" id="duedate">
             </fieldset>
             <fieldset>
-                //label and dropdown selection for class
+<!--                label and dropdown selection for class-->
                 <label for="class">Class: </label>
                 <select name="class" id="class" required />
                 <?php

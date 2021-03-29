@@ -1,3 +1,5 @@
+<?php $pageTitle = 'Welcome!';
+include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -7,7 +9,7 @@
     <body>
     <h1>Task List</h1>
     <?php
-    // connect
+//     connect
         $db = new PDO('mysql:host=172.31.22.43;dbname=Brieanna1158732', 'Brieanna1158732', 'z0PV1TNW9O');
     // select everything from table
     $sql = "SELECT * FROM tasks";
