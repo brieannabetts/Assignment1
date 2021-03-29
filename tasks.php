@@ -23,7 +23,7 @@ include 'header.php'; ?>
             <fieldset>
 <!--                label and dropdown selection for class-->
                 <label for="class">Class: </label>
-                <select name="class" id="class" required />
+                <select name="class" id="class" required>
                 <?php
                 //connect
                 $db = new PDO('mysql:host=172.31.22.43;dbname=Brieanna1158732', 'Brieanna1158732', 'z0PV1TNW9O');
@@ -35,11 +35,12 @@ include 'header.php'; ?>
                 $class = $cmd->fetchAll();
                 //make a drop down option
                 foreach ($class as $c) {
-                    echo '<option value="' . $c['classId'] . '">' . $c['class'] . '</option>';
+                    echo '<option value="' . $c['classId'] . '">' . $c['class_name'] . '</option>';
                 }
                 ?>
+                </select>
              </fieldset>
-            //save button
+<!--            save button-->
             <button>Save</button>
         </form>
     </body>
