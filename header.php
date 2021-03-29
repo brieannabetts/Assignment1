@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SCHOOL SCHEDULE || <?php $pageTitle ="WELCOME!";
-        echo $pageTitle; ?></title>
+    <title>SCHOOL SCHEDULE || <?php echo $pageTitle; ?></title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 
     <!-- link to custom js file to use delete confirmation function -->

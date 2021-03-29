@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Welcome!';
+<?php $pageTitle = 'class saved';
 include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">

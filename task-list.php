@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Welcome!';
+<?php $pageTitle = 'Updated School Schedule';
 include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">

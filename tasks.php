@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Welcome!';
+<?php $pageTitle = 'Create a New Task';
 include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -1,4 +1,4 @@
-<?php $pageTitle = 'Welcome!';
+<?php $pageTitle = 'Task Saved';
 include 'header.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
