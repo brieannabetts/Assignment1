@@ -4,7 +4,7 @@ include 'header.php';
 
 
 if (is_numeric($_GET['taskId'])) {
-    // read the itemId from the URL parameter using the $_GET collection
+    // read the taskId from the URL parameter using the $_GET collection
     $itemId = $_GET['taskId'];
 
     try {
@@ -14,7 +14,7 @@ if (is_numeric($_GET['taskId'])) {
         // set up & run the SQL DELETE command
         $sql = "DELETE FROM task WHERE taskId = :taskId";
         $cmd = $db->prepare($sql);
-        $cmd->bindParam(':taskID', $taskId, PDO::PARAM_INT);
+        $cmd->bindParam(':taskId', $taskId, PDO::PARAM_INT);
         $cmd->execute();
 
         // disconnect
