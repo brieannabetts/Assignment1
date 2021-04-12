@@ -26,6 +26,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class = "navbar-nav">
                 <li class="nav-tasks">
+                    <a class ="nav-link" aria-current ="page" href="register.php">Register</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav">
+                <li class="nav-tasks">
+                    <a class ="nav-link" aria-current ="page" href="login.php">Login</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav">
+                <li class="nav-tasks">
+                    <a class ="nav-link" aria-current ="page" href="logout.php">Logout</a>
+                </li>
+            </ul>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class = "navbar-nav">
+                <li class="nav-tasks">
                     <a class ="nav-link" aria-current ="page" href="tasks.php">ADD to Task List</a>
                 </li>
             </ul>
