@@ -9,3 +9,10 @@ In this updated part The web builder will allow the user to edit and delete task
 
 I am able to physically insert values into the class table but couldn't figure out how to have the user input them and have them saved to the database.
 https://lamp.computerstudi.es/~Brieanna1158732/Comp-1006/Assignment/
+
+--------------------------------------------------------------------------------------------------------------------
+
+Assignment 2 part 2
+
+In this part I created a user login, log out and registration page. I made a validation page to make sure that the user had logged in and had rpoper credentials. And created a auth page to end sessions. I implimented some js to create a checkbox and have the checkboxes when clicked to move the task to the bottom of the page and cross it out and fade it. 
+https://lamp.computerstudi.es/~Brieanna1158732/Comp-1006/Assignment/
