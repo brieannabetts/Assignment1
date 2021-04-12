@@ -35,7 +35,7 @@ include 'header.php'; ?>
                 $class = $cmd->fetchAll();
                 //make a drop down option
                 foreach ($class as $c) {
-                    echo '<option value="' . $c['classId'] . '">' . $c['class_name'] . '</option>';
+                    echo '<option value="' . $c['class'] . '">' . $c['class_name'] . '</option>';
                 }
                 ?>
                 </select>
